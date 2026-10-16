@@ -1,0 +1,13 @@
+# Virtuelle Python-Umgebung
+.venv/
+
+# Generierte Python-Dateien
+__pycache__/
+*.py[cod]
+
+# Lokale IDE- und macOS-Dateien
+.idea/
+.DS_Store
+
+# Test- und Tool-Caches
+.pytest_cache/
