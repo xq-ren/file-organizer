@@ -1,0 +1,17 @@
+[build-system]
+requires = ["hatchling>=1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "file-organizer"
+version = "0.1.0"
+description = "tool to organize files by type"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/xq-ren/file-organizer"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/file_organizer"]
