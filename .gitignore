@@ -8,6 +8,7 @@ __pycache__/
 # Lokale IDE- und macOS-Dateien
 .idea/
 .DS_Store
+*.iml
 
 # Test- und Tool-Caches
 .pytest_cache/
